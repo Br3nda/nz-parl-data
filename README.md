@@ -29,7 +29,7 @@ legislative data. A Popolo document has three main kinds of things:
 It's JSON-based and deliberately simple, which is why it's become a common interchange format
 for parliamentary/political data projects internationally (it's the format
 [EveryPolitician](http://everypolitician.org/) used to publish parliamentary membership data for
-over 200 countries, before that project was paused).
+233 countries and territories, before the project was placed on hold in 2019).
 
 ## parlparse
 
