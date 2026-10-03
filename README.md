@@ -50,4 +50,6 @@ Derived from data under Crown copyright: sourced from
 [data.govt.nz's Members of Parliament dataset](https://catalogue.data.govt.nz/dataset/members-of-parliament)
 (Parliamentary Service / Department of Internal Affairs), published under
 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
-This repo's own conversion of that data into Popolo format is released under the same licence.
+This repo's own conversion work (the format, the code that produces it) is considered CC0 -
+public domain, no rights reserved - except where that would conflict with the underlying Crown
+copyright/CC BY terms on the data itself, which still apply to the facts being conveyed.
