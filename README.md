@@ -10,10 +10,12 @@ tools and researchers already know how to use.
 
 ## What's here
 
-- **`parlparse/popolo.json`** - every MP and party membership from
-  [Hot Air](https://hotair.nz)'s own dataset, exported in [Popolo](#popolo) format. Generated
-  from Hot Air's database (which covers MPs and terms from 2003 onward); regenerated and
-  republished periodically, not live-updated.
+- **`parlparse/popolo.json`** - every MP and party membership, in [Popolo](#popolo) format.
+  Covers every Parliament back to the 1st (1853). The underlying data is
+  [data.govt.nz's own Members of Parliament dataset](https://catalogue.data.govt.nz/dataset/members-of-parliament)
+  (Parliamentary Service / Department of Internal Affairs) - this file doesn't add any new facts
+  to it, it's the same data converted into Popolo format via [Hot Air](https://hotair.nz)'s own
+  database. Regenerated and republished periodically, not live-updated.
 
 ## Popolo
 
