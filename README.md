@@ -46,8 +46,8 @@ not a claim that its contents use parlparse's own format - they're Popolo, not p
 
 ## Licence and attribution
 
-The underlying data is sourced from
+Derived from data under Crown copyright: sourced from
 [data.govt.nz's Members of Parliament dataset](https://catalogue.data.govt.nz/dataset/members-of-parliament)
-(Parliamentary Service / Department of Internal Affairs, Crown copyright), published under
+(Parliamentary Service / Department of Internal Affairs), published under
 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 This repo's own conversion of that data into Popolo format is released under the same licence.
