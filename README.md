@@ -44,6 +44,10 @@ doing for New Zealand - scraping/parsing an official parliamentary record into o
 data that other tools can build on. The `parlparse/` directory name here is a nod to that project,
 not a claim that its contents use parlparse's own format - they're Popolo, not parlparse XML.
 
-## Licence
+## Licence and attribution
 
-TODO - decide and document a licence before treating this as a stable public feed.
+The underlying data is sourced from
+[data.govt.nz's Members of Parliament dataset](https://catalogue.data.govt.nz/dataset/members-of-parliament)
+(Parliamentary Service / Department of Internal Affairs, Crown copyright), published under
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+This repo's own conversion of that data into Popolo format is released under the same licence.
