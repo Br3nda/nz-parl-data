@@ -20,6 +20,13 @@ tools and researchers already know how to use.
   [Vote Event](#vote-events) format. The underlying data is Hansard, the official transcript of
   Parliament, parsed by Hot Air - again, not new facts, just the same votes converted into a
   standard format. Regenerated and republished periodically, not live-updated.
+- **`hansard-member-ids.csv`** - maps Hansard's own per-MP identifier (a GUID, assigned to every
+  speech/vote in Hansard's API and transcripts) to that MP's name and every alternative name
+  we've confirmed for them (usually a nickname vs legal given name, e.g. "Chris Hipkins" vs
+  "Christopher John Hipkins" - learned from matching an MP against an official source that uses
+  their full legal name, never guessed). Only MPs Hot Air has actually matched to a Hansard
+  speech are included. Columns: `hansard_member_id`, `name`, `alternative_names` (semicolon-
+  separated). Regenerated and republished periodically, not live-updated.
 
 ## Popolo
 
@@ -78,6 +85,11 @@ data that other tools can build on.
 Parliament. Under [section 27(1) of the Copyright Act 1994](https://www.legislation.govt.nz/act/public/1994/0143/latest/DLM346602.html),
 no copyright exists in NZ Parliamentary debates, so this file isn't under any licence - it's
 public domain.
+
+`hansard-member-ids.csv` combines the Hansard GUID (public domain, see above) with the MP's name
+(from the CC BY 4.0 Members of Parliament dataset, see above) and any alternative name (confirmed
+against official election results from the Electoral Commission, also Crown copyright, also CC
+BY) - so the same CC BY 4.0 attribution applies to this file as a whole.
 
 This repo's own conversion work (the format, the code that produces it) is considered CC0 -
 public domain, no rights reserved - except where that would conflict with the underlying Crown
